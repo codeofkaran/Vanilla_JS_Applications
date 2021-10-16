@@ -1,0 +1,29 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    background-color: brown;
+    height:55px;
+    border-radius: 5px;
+    width: 445px;
+    font-size: xx-large;
+    margin-left: 445px;
+    margin-top: 323px;
+    font-style: italic;   
+}
+
+h1{
+    margin-left: 445px;
+    margin-top: 205px;
+    margin-bottom: 0px;
+}
+
+#div{
+    color:darkblue;
+    font-size:x-large ;
+    margin-left: 0px;
+    margin-top: 205px;
+}

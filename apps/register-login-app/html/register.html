@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+
+</head>
+    <style>
+        body{
+            background-image: url("register.png");
+            height: 100%;
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+        .container{
+            text-align: center;
+            font-weight: bolder;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color:red;
+        }
+
+        .inputtxt{
+            border-radius: 54px;
+            text-align:left;
+        }
+
+        .btn-primary{
+            display: inline-block;
+            text-decoration: none;
+            color: #FFF;
+            background: #4935fd;
+            border-radius: 10px;
+            box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+<body>
+    <div class="container">
+        <h1 style="margin-top: 0px;">Register yourself!</h1>
+    </div>
+
+    <h1> Registration</h1>
+
+    <div class="inputtxt">
+
+        <form action="register.html">
+            <label for=""><b>Username</b></label>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            <input type="text" id="username" placeholder="Username" >
+            <br><br><br>
+            <label for=""><b>First Name</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="fName" placeholder="First Name">
+            <br><br><br>
+            <label for=""><b>Last Name</b></label>&nbsp;&nbsp;&nbsp; &nbsp;
+            <input type="text" id="lName" placeholder="Last Name">
+            <br><br><br>
+            <label for=""><b>Password</b></label>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            <input type="password" id="pass" placeholder="Password" >
+            <br><br><br>
+            <label for=""><b>Email Id</b></label>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" id="email" placeholder="Email" >
+            <br><br><br>&nbsp;&nbsp;&nbsp;
+            <button type="submit" class="btn-primary" id="fetchBtn" onclick="storeInfo()">Register</button> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        </form>
+        <br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+        <button class="btn-primary" onclick="document.location='welcome.html'">Login</button>
+
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

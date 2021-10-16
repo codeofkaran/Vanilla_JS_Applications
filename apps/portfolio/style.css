@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-size:350% ;
+    margin-top: 0%;
+}
+.display{
+    text-align: center;
+    
+}
+table,td{
+    border: 1px solid black;
+    margin-left: 42%;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+#next{
+    border-radius: 4px;
+    width: 100px;
+    height: 45px;
+    background-color: blue;       
+}

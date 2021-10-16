@@ -1,0 +1,22 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: cornsilk;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+li{
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+a{
+    color: cornsilk;
+}

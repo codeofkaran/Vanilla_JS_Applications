@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<style>
+    body{
+        background-color: blue;
+    }
+    .container{
+        text-align: center;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: x-large;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        color: white;
+    }
+
+    .btn{
+        display: inline-block;
+        text-decoration: none;
+        color: #FFF;
+        background:darkorange;
+        border-radius: 4px;
+        box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+        font-weight: bold;
+        border: solid 2px #d27d00;
+        font-size: 13px;
+        margin-left: 670px;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <h1>Welcome to Karan's page</h1>
+    </div>
+
+    <div style="text-align: center;margin-top: 150px;">
+       <b>Username </b><input style="border-radius: 5px;" type="text" id="uName" required>
+        <br><br><br>
+        <b>Password </b><input style="border-radius: 5px;" type="password" id="pass" required>
+    </div>
+    <br>
+    <button class="btn" id="inputbtn" onclick="fetchCred()" type="submit">Login</button>
+    <br><br>
+    <b style=" margin-left: 550px;">New User? &nbsp;&nbsp;&nbsp;</b><a style="color: #d27d00; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;font-weight: bold;" href="register.html">Click here to register</a>
+    <script src="login.js"></script>
+</body>
+</html>

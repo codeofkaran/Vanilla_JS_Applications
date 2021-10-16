@@ -1,0 +1,47 @@
+body{
+    background-color: orange;
+}
+
+.container{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons{
+    text-align: center;
+    padding:30px;
+}
+
+#btn1{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    border-color: white;
+}
+#btn2{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    border-color: white;
+}
+#btn3{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    border-color: white;
+}
+
+p{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
